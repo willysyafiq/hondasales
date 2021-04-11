@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// Import Google Font Manrope & Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&family=Montserrat:wght@800&display=swap');
+
+$family-sans-serif: 'Manrope', sans-serif;
+$family-primary: $family-sans-serif;
+$black-900: #000000;
+$black-800: #35363B;
+$black-700: #333333;
+$grey-900: #404040;
+$grey-800: #4D4D4D;
+$grey-700: #525252;
+$grey-600: #666666;
+$white-400: #E6E6E6;
+$white-300: #EEEEEE;
+$white-200: #F2F2F2;
+$white-100: #FFFFFF;
+$red-900: #CC0000;
+$red-800: #E61B33;
+$red-700: #F03030;
+$red-600: #EEBCBC;
+$blue-900: #0000EE;
+$blue-800: #0090F0;
+
+// If need, change your variables before importing Bulma
+@import "~bulma/bulma.sass";
